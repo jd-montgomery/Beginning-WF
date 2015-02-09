@@ -1,60 +1,60 @@
 namespace Chapter01 {
     
-    #line 13 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 13 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 1 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Collections;
     
     #line default
     #line hidden
     
-    #line 14 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 14 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Collections.Generic;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 1 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Activities;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 1 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Activities.Expressions;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 1 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Activities.Statements;
     
     #line default
     #line hidden
     
-    #line 15 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 15 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Data;
     
     #line default
     #line hidden
     
-    #line 16 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 16 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Linq;
     
     #line default
     #line hidden
     
-    #line 17 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 17 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Text;
     
     #line default
     #line hidden
     
-    #line 1 "C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter01\Chapter01\Workflow1.xaml"
+    #line 1 "C:\Users\J.D\GitHub\Beginning WF\Chapter01\Workflow1.xaml"
     using System.Activities.XamlIntegration;
     
     #line default
@@ -584,7 +584,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr3GetTree() {
                 
-                #line 56 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 56 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
               numberOfBells;
                 
@@ -596,7 +596,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr3Get() {
                 
-                #line 56 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 56 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
               numberOfBells;
                 
@@ -612,7 +612,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr3Set(int value) {
                 
-                #line 56 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 56 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 
               numberOfBells = value;
                 
@@ -628,7 +628,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr6GetTree() {
                 
-                #line 80 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 80 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
               counter;
                 
@@ -640,7 +640,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr6Get() {
                 
-                #line 80 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 80 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
               counter;
                 
@@ -656,7 +656,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public void @__Expr6Set(int value) {
                 
-                #line 80 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 80 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 
               counter = value;
                 
@@ -745,7 +745,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr0GetTree() {
                 
-                #line 41 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 41 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
           DateTime.Now.Hour;
                 
@@ -757,7 +757,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr0Get() {
                 
-                #line 41 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 41 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
           DateTime.Now.Hour;
                 
@@ -772,7 +772,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr1GetTree() {
                 
-                #line 49 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 49 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
           numberOfBells > 12;
                 
@@ -784,7 +784,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr1Get() {
                 
-                #line 49 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 49 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
           numberOfBells > 12;
                 
@@ -799,7 +799,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr2GetTree() {
                 
-                #line 61 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 61 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
               numberOfBells - 12;
                 
@@ -811,7 +811,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr2Get() {
                 
-                #line 61 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 61 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
               numberOfBells - 12;
                 
@@ -826,7 +826,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr4GetTree() {
                 
-                #line 74 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 74 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
             counter.ToString();
                 
@@ -838,7 +838,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr4Get() {
                 
-                #line 74 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 74 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
             counter.ToString();
                 
@@ -853,7 +853,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr5GetTree() {
                 
-                #line 85 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 85 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<int>> expression = () => 
               counter + 1;
                 
@@ -865,7 +865,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public int @__Expr5Get() {
                 
-                #line 85 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 85 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
               counter + 1;
                 
@@ -880,7 +880,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr7GetTree() {
                 
-                #line 91 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 91 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<System.TimeSpan>> expression = () => 
             TimeSpan.FromSeconds(1);
                 
@@ -892,7 +892,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public System.TimeSpan @__Expr7Get() {
                 
-                #line 91 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 91 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
             TimeSpan.FromSeconds(1);
                 
@@ -907,7 +907,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr8GetTree() {
                 
-                #line 69 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 69 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
         counter <= numberOfBells;
                 
@@ -919,7 +919,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr8Get() {
                 
-                #line 69 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 69 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
         counter <= numberOfBells;
                 
@@ -934,7 +934,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr9GetTree() {
                 
-                #line 98 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 98 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<string>> expression = () => 
         "The time is " + DateTime.Now.ToString();
                 
@@ -946,7 +946,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public string @__Expr9Get() {
                 
-                #line 98 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 98 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
         "The time is " + DateTime.Now.ToString();
                 
@@ -961,7 +961,7 @@ namespace Chapter01 {
             
             internal System.Linq.Expressions.Expression @__Expr10GetTree() {
                 
-                #line 104 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 104 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 System.Linq.Expressions.Expression<System.Func<bool>> expression = () => 
           DateTime.Now.Hour >= 18;
                 
@@ -973,7 +973,7 @@ namespace Chapter01 {
             [System.Diagnostics.DebuggerHiddenAttribute()]
             public bool @__Expr10Get() {
                 
-                #line 104 "C:\USERS\J.D\DOCUMENTS\GITHUB\BEGINNING WF\CHAPTER01\CHAPTER01\WORKFLOW1.XAML"
+                #line 104 "C:\USERS\J.D\GITHUB\BEGINNING WF\CHAPTER01\WORKFLOW1.XAML"
                 return 
           DateTime.Now.Hour >= 18;
                 
