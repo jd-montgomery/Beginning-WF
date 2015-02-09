@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<c:Workflow1 xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:c="clr-namespace:Chapter01;assembly=Chapter01" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Text</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>Chapter01</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <c:Workflow1.Implementation>
+    <Sequence>
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:Int32" Default="1" Name="counter" />
+        <Variable x:TypeArguments="x:Int32" Name="numberOfBells">
+          <Variable.Default>
+            <mca:CSharpValue x:TypeArguments="x:Int32">DateTime.Now.Hour</mca:CSharpValue>
+          </Variable.Default>
+        </Variable>
+      </Sequence.Variables>
+      <WriteLine DisplayName="Hello" Text="Hello, World!" />
+      <If DisplayName="Adjust for PM">
+        <If.Condition>
+          <InArgument x:TypeArguments="x:Boolean">
+            <mca:CSharpValue x:TypeArguments="x:Boolean">numberOfBells &gt; 12</mca:CSharpValue>
+          </InArgument>
+        </If.Condition>
+        <If.Then>
+          <Assign>
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">
+                <mca:CSharpReference x:TypeArguments="x:Int32">numberOfBells</mca:CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">
+                <mca:CSharpValue x:TypeArguments="x:Int32">numberOfBells - 12</mca:CSharpValue>
+              </InArgument>
+            </Assign.Value>
+          </Assign>
+        </If.Then>
+      </If>
+      <While DisplayName="Sound Bell(s)">
+        <While.Condition>
+          <mca:CSharpValue x:TypeArguments="x:Boolean">counter &lt;= numberOfBells</mca:CSharpValue>
+        </While.Condition>
+        <Sequence DisplayName="Sound Bell">
+          <WriteLine>
+            <InArgument x:TypeArguments="x:String">
+              <mca:CSharpValue x:TypeArguments="x:String">counter.ToString()</mca:CSharpValue>
+            </InArgument>
+          </WriteLine>
+          <Assign>
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Int32">
+                <mca:CSharpReference x:TypeArguments="x:Int32">counter</mca:CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Int32">
+                <mca:CSharpValue x:TypeArguments="x:Int32">counter + 1</mca:CSharpValue>
+              </InArgument>
+            </Assign.Value>
+          </Assign>
+          <Delay>
+            <InArgument x:TypeArguments="x:TimeSpan">
+              <mca:CSharpValue x:TypeArguments="x:TimeSpan">TimeSpan.FromSeconds(1)</mca:CSharpValue>
+            </InArgument>
+          </Delay>
+        </Sequence>
+      </While>
+      <WriteLine DisplayName="Display Time">
+        <InArgument x:TypeArguments="x:String">
+          <mca:CSharpValue x:TypeArguments="x:String">"The time is " + DateTime.Now.ToString()</mca:CSharpValue>
+        </InArgument>
+      </WriteLine>
+      <If DisplayName="Greeting">
+        <If.Condition>
+          <InArgument x:TypeArguments="x:Boolean">
+            <mca:CSharpValue x:TypeArguments="x:Boolean">DateTime.Now.Hour &gt;= 18</mca:CSharpValue>
+          </InArgument>
+        </If.Condition>
+        <If.Then>
+          <WriteLine Text="Good Evening" />
+        </If.Then>
+        <If.Else>
+          <WriteLine Text="Good Day" />
+        </If.Else>
+      </If>
+      <sads:DebugSymbol.Symbol>9xB+oiNsy6pqVHWoHEvAjgRbTUM6XFVzZXJzXEouRFxEb2N1bWVudHNcR2l0SHViXEJlZ2lubmluZyBXRlxDaGFwdGVyMDFcQ2hhcHRlcjAxXFdvcmtmbG93MS54YW1sHCUDdA4CAQEnMyc2AgEFKgsqWQIBAi4FLmkCATEvBUMKAgEmRAVgDQIBEmEFZRECAQ5mBXIKAgEGLlcuZgIBMjILMl8CASc2CUESAgEqSAdfEgIBFkYJRmMCARNjCWNvAgEPaQtpZAIBB20JbVgCAQxwCXBUAgEKPg8+XgIBLjkPOWECAStJCU0VAgEiTglZEgIBG1oJXhECARdtR21VAgENcEdwUQIBC0sNS10CASNWD1ZXAgEfUQ9RWwIBHFwNXGQCARg=</sads:DebugSymbol.Symbol>
+    </Sequence>
+  </c:Workflow1.Implementation>
+</c:Workflow1>
