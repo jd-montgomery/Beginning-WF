@@ -13,9 +13,13 @@ namespace Chapter04_OrderProcess {
     
     
     [System.Runtime.InteropServices.ComVisible(false)]
-    public partial class Workflow1 : System.Activities.Activity, System.ComponentModel.ISupportInitialize {
+    public partial class OrderWorkflow : System.Activities.Activity, System.ComponentModel.ISupportInitialize {
         
         private bool _contentLoaded;
+        
+        private System.Activities.InArgument<Chapter04_OrderProcess.Order> _OrderInfo;
+        
+        private System.Activities.OutArgument<decimal> _TotalAmount;
         
 partial void BeforeInitializeComponent(ref bool isInitialized);
 
@@ -23,8 +27,26 @@ partial void AfterInitializeComponent();
 
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("XamlBuildTask", "4.0.0.0")]
-        public Workflow1() {
+        public OrderWorkflow() {
             this.InitializeComponent();
+        }
+        
+        public System.Activities.InArgument<Chapter04_OrderProcess.Order> OrderInfo {
+            get {
+                return this._OrderInfo;
+            }
+            set {
+                this._OrderInfo = value;
+            }
+        }
+        
+        public System.Activities.OutArgument<decimal> TotalAmount {
+            get {
+                return this._TotalAmount;
+            }
+            set {
+                this._TotalAmount = value;
+            }
         }
         
         /// <summary>
@@ -44,7 +66,7 @@ partial void AfterInitializeComponent();
                 return;
             }
             string resourceName = this.FindResource();
-            System.IO.Stream initializeXaml = typeof(Workflow1).Assembly.GetManifestResourceStream(resourceName);
+            System.IO.Stream initializeXaml = typeof(OrderWorkflow).Assembly.GetManifestResourceStream(resourceName);
             System.Xml.XmlReader xmlReader = null;
             System.Xaml.XamlReader reader = null;
             System.Xaml.XamlObjectWriter objectWriter = null;
@@ -57,7 +79,7 @@ partial void AfterInitializeComponent();
                 reader = new System.Xaml.XamlXmlReader(xmlReader, schemaContext, readerSettings);
                 System.Xaml.XamlObjectWriterSettings writerSettings = new System.Xaml.XamlObjectWriterSettings();
                 writerSettings.RootObjectInstance = this;
-                writerSettings.AccessLevel = System.Xaml.Permissions.XamlAccessLevel.PrivateAccessTo(typeof(Workflow1));
+                writerSettings.AccessLevel = System.Xaml.Permissions.XamlAccessLevel.PrivateAccessTo(typeof(OrderWorkflow));
                 objectWriter = new System.Xaml.XamlObjectWriter(schemaContext, writerSettings);
                 System.Xaml.XamlServices.Transform(reader, objectWriter);
             }
@@ -77,10 +99,10 @@ partial void AfterInitializeComponent();
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("XamlBuildTask", "4.0.0.0")]
         private string FindResource() {
-            string[] resources = typeof(Workflow1).Assembly.GetManifestResourceNames();
+            string[] resources = typeof(OrderWorkflow).Assembly.GetManifestResourceNames();
             for (int i = 0; (i < resources.Length); i = (i + 1)) {
                 string resource = resources[i];
-                if ((resource.Contains(".OrderWF.g.xaml") || resource.Equals("OrderWF.g.xaml"))) {
+                if ((resource.Contains(".OrderWorkflow.g.xaml") || resource.Equals("OrderWorkflow.g.xaml"))) {
                     return resource;
                 }
             }

@@ -1,6 +1,7 @@
 C:\Users\J.D\GitHub\Beginning WF\Chapter03\bin\Debug\Chapter03.exe.config
 C:\Users\J.D\GitHub\Beginning WF\Chapter03\bin\Debug\Chapter03.exe
 C:\Users\J.D\GitHub\Beginning WF\Chapter03\bin\Debug\Chapter03.pdb
+C:\Users\J.D\GitHub\Beginning WF\Chapter03\obj\x86\Debug\Chapter03.csprojResolveAssemblyReference.cache
 C:\Users\J.D\GitHub\Beginning WF\Chapter03\obj\x86\Debug\Workflow1.g.xaml
 C:\Users\J.D\GitHub\Beginning WF\Chapter03\obj\x86\Debug\Chapter03_Workflow1_BeforeInitializeComponentHelper.txt
 C:\Users\J.D\GitHub\Beginning WF\Chapter03\obj\x86\Debug\_Chapter03.g.cs

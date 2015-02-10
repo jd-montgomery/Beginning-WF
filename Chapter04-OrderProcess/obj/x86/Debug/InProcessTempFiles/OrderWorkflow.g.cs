@@ -17,7 +17,9 @@ namespace Chapter04_OrderProcess {
         
         private bool _contentLoaded;
         
-        private System.Activities.InArgument<Chapter04_OrderProcess.OrderWorkflow> _OrderInfo;
+        private System.Activities.InArgument<Chapter04_OrderProcess.Order> _OrderInfo;
+        
+        private System.Activities.OutArgument<decimal> _TotalAmount;
         
 partial void BeforeInitializeComponent(ref bool isInitialized);
 
@@ -29,12 +31,21 @@ partial void AfterInitializeComponent();
             this.InitializeComponent();
         }
         
-        public System.Activities.InArgument<Chapter04_OrderProcess.OrderWorkflow> OrderInfo {
+        public System.Activities.InArgument<Chapter04_OrderProcess.Order> OrderInfo {
             get {
                 return this._OrderInfo;
             }
             set {
                 this._OrderInfo = value;
+            }
+        }
+        
+        public System.Activities.OutArgument<decimal> TotalAmount {
+            get {
+                return this._TotalAmount;
+            }
+            set {
+                this._TotalAmount = value;
             }
         }
         
