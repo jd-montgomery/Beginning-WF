@@ -9,7 +9,6 @@ C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\OrderWorkf
 C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\Chapter04_OrderProcess_OrderWorkflow_BeforeInitializeComponentHelper.cs
 C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\Chapter04-OrderProcess.csproj.XamlGeneratedCodeFileListAbsolute.txt
 C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\Chapter04-OrderProcess.csproj.XamlGeneratedXamlFileListAbsolute.txt
-C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\Chapter04-OrderProcess.dll
 C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\Chapter04-OrderProcess.pdb
 C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\Chapter04_OrderProcess_OrderWorkflow_CompiledExpressionRoot.cs
 C:\Users\J.D\GitHub\Beginning WF\Chapter04-OrderProcess\obj\x86\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
