@@ -1,0 +1,4 @@
+obj\x86\Debug\_Chapter03.g.cs
+obj\x86\Debug\Workflow1.g.cs
+obj\x86\Debug\Chapter03_Workflow1_BeforeInitializeComponentHelper.cs
+C:\Users\J.D\GitHub\Beginning WF\Chapter03\obj\x86\Debug\Chapter03_Workflow1_CompiledExpressionRoot.cs

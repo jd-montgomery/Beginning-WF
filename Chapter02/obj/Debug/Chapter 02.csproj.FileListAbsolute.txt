@@ -4,3 +4,8 @@ C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter02\Chapter 02\bin\Debug\Chapte
 C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter02\Chapter 02\bin\Debug\Chapter 02.pdb
 C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter02\Chapter 02\obj\Debug\Chapter 02.exe
 C:\Users\J.D\Documents\GitHub\Beginning WF\Chapter02\Chapter 02\obj\Debug\Chapter 02.pdb
+C:\Users\J.D\GitHub\Beginning WF\Chapter02\bin\Debug\Chapter 02.exe.config
+C:\Users\J.D\GitHub\Beginning WF\Chapter02\bin\Debug\Chapter 02.exe
+C:\Users\J.D\GitHub\Beginning WF\Chapter02\bin\Debug\Chapter 02.pdb
+C:\Users\J.D\GitHub\Beginning WF\Chapter02\obj\Debug\Chapter 02.exe
+C:\Users\J.D\GitHub\Beginning WF\Chapter02\obj\Debug\Chapter 02.pdb

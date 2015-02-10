@@ -1,0 +1,2 @@
+obj\x86\Debug\OrderWorkflow.g.xaml
+obj\x86\Debug\Chapter04_OrderProcess_OrderWorkflow_BeforeInitializeComponentHelper.txt
