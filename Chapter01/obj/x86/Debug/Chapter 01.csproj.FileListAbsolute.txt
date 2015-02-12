@@ -33,7 +33,6 @@ C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Workflow1.g.cs
 C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Chapter01_Workflow1_BeforeInitializeComponentHelper.cs
 C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Chapter 01.csproj.XamlGeneratedCodeFileListAbsolute.txt
 C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Chapter 01.csproj.XamlGeneratedXamlFileListAbsolute.txt
-C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Chapter01.dll
 C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Chapter01.pdb
 C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\Chapter01_Workflow1_CompiledExpressionRoot.cs
 C:\Users\J.D\GitHub\Beginning WF\Chapter01\obj\x86\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml

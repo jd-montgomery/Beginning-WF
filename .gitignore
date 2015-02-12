@@ -2,8 +2,15 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Chapter05/bin/Debug
-/Chapter05/obj/Debug
-/Chapter02/obj/Debug
-/Chapter03/obj/x86/Debug
+/Chapter05/bin
+/Chapter05/obj
+/Chapter04-OrderProcess/bin
+/Chapter04-OrderProcess/obj
+/Chapter03/bin
+/Chapter03/obj
+/Chapter02/bin
+/Chapter02/obj
+/Chapter01/bin
+/Chapter01/obj
+
 *.user

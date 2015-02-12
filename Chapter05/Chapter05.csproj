@@ -35,6 +35,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ItemInfo.cs" />
+    <Compile Include="LookupItem.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderItem.cs" />
     <Compile Include="OutOfStockException.cs" />
